@@ -1,5 +1,5 @@
 {
-  "name": "authentication",
+  "name": "mini-shop",
   "version": "0.1.0",
   "module": "server/index.js",
   "scripts": {
