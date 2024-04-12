@@ -29,6 +29,4 @@ import { saxShoppingBagBold } from '@ng-icons/iconsax/bold';
     }),
   ],
 })
-export class AppComponent {
-  title = 'Authentication';
-}
+export class AppComponent {}
