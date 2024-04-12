@@ -1,18 +1,32 @@
 <section class="w-full h-full flex flex-col justify-between items-center">
   <header class="w-full h-12 flex justify-between">
     <div>
-      <img src="" alt="" />
+      <ng-icon name="saxShoppingBagBold"></ng-icon>
+      <h1>Mini<br />Shop</h1>
     </div>
     <nav class="[&:a]:font-teko font-medium">
       <menu class="flex">
-        <li><a href="/shop">Shop</a></li>
-        <li><a href="/products">Manage Your Products</a></li>
-        <li><a href="/cart">Your Cart</a></li>
-        <li><a href="/about">About Project</a></li>
+        <li>
+          <ng-icon name="saxShopOutline"></ng-icon><a href="/shop">Shop</a>
+        </li>
+        <li>
+          <ng-icon name="sax3dcubeOutline"></ng-icon
+          ><a href="/products">Manage Your Products</a>
+        </li>
+        <li>
+          <ng-icon name="saxShoppingCartOutline"></ng-icon
+          ><a href="/cart">Your Cart</a>
+        </li>
+        <li>
+          <ng-icon name="saxInformationOutline"></ng-icon
+          ><a href="/about">About Project</a>
+        </li>
       </menu>
     </nav>
     <div>
-      @if (false) { <a href="/profile">[user full name]</a> } @else {
+      @if (false) { <ng-icon name="saxUserOutline"></ng-icon>
+      <a href="/profile">[user full name]</a> } @else {
+      <ng-icon name="saxLoginOutline"></ng-icon>
       <a href="/sign-in-up">log in</a> }
     </div>
   </header>
