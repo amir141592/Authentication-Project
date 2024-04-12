@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+@import './tailwind.css';
+
+@font-face {
+  font-family: 'teko', sans-serif;
+  src: url('./assets/Fonts/Teko-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url('./assets/Fonts/Poppins-Thin.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url('./assets/Fonts/Poppins-ExtraLight.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url('./assets/Fonts/Poppins-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url('./assets/Fonts/Poppins-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url('./assets/Fonts/Poppins-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url('./assets/Fonts/Poppins-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url('./assets/Fonts/Poppins-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url('./assets/Fonts/Poppins-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url('./assets/Fonts/Poppins-Black.ttf');
+  font-weight: 900;
+}
